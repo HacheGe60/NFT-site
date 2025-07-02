@@ -21,3 +21,11 @@ h3 {
     color: #d0aaff;
     margin: 0;
 }
+
+section {
+    padding: 45px 0;
+}
+
+.main-image {
+    width: 100%;
+}
