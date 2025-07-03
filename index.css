@@ -59,3 +59,13 @@ section:last-child {
 .main-image {
     width: 100%;
 }
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
+    width: 300px;
+    border-radius: 4.6px;
+}
