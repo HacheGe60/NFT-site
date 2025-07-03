@@ -7,10 +7,14 @@ body {
 
 /* Typography */
 
+h1,
+h3 {
+    margin: 0;
+}
+
 h1 {
     font-size: 36px;
     color: #f5f5f5;
-    margin: 0;
 }
 
 h2 {
@@ -20,7 +24,6 @@ h2 {
 h3 {
     font-size: 20px;
     color: #d0aaff;
-    margin: 0;
 }
 
 /* Links */
@@ -37,17 +40,18 @@ a:active {
 
 /* Layout */
 
-header {
-    background-color: #5f29a3;
+header,
+section,
+footer {
     padding: 45px 0;
 }
 
-section {
-    padding: 45px 0;
+header,
+section:last-child {
+    background-color: #5f29a3;
 }
 
 section:last-child {
-    background-color: #5f29a3;
     color: #f5f5f5;
 }
 
@@ -73,5 +77,4 @@ section:last-child {
 footer {
     text-align: center;
     color: #5f29a3;
-    padding: 45px 0;
 }
